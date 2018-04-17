@@ -45,4 +45,4 @@ Nokogiri::HTML (open("http://learn-co-curriculum.github.io/site-for-scraping/cou
 
 end
 
-Scraper.new.get_page
+Scraper.new.print_courses

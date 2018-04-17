@@ -18,6 +18,10 @@ Nokogiri::HTML (open("http://learn-co-curriculum.github.io/site-for-scraping/cou
   #end
   end
 
+  def get_courses
+    self.get_page.css(".post")
+  end
+
     def print_courses
     self.make_courses
     Course.all.each do |course|
